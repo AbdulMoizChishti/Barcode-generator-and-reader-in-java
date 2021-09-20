@@ -7,7 +7,7 @@ package barcode;
 
 /**
  *
- * @author baby
+ * @author Abdul Moiz Chishti
  */
 public class Barcode {
 

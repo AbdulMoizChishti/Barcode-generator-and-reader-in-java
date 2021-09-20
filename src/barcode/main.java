@@ -20,7 +20,7 @@ import javax.imageio.ImageIO;
 
 /**
  *
- * @author baby
+ * @author Abdul Moiz Chishti
  */
 public class main extends javax.swing.JFrame {
 
@@ -121,7 +121,7 @@ public class main extends javax.swing.JFrame {
           
           String fname = br_data.getText();
           
-            barcode.renderBarcode("C:\\Users\\Abdul Moiz Chishti\\OneDrive - SSUET\\Pictures\\" + fname +".png" );
+            barcode.renderBarcode("E:\\" + fname +".png" );
             
             
             
@@ -151,14 +151,7 @@ public class main extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    /*
-     InputStream barCodeInputStream = new FileInputStream("D:\\codabar100.gif");  
-    BufferedImage barCodeBufferedImage = ImageIO.read(barCodeInputStream);
-    LuminanceSource source = new BufferedImageLuminanceSource(barCodeBufferedImage);  
-    BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));  
-    Reader reader = new MultiFormatReader();  
-    Result result = reader.decode(bitmap);
-     */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
