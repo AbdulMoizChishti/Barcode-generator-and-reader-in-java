@@ -31,12 +31,6 @@ public class main extends javax.swing.JFrame {
         initComponents();
     }
 
-    /* Linear barcode = new Linear();
-    barcode.setType(Linear.CODE128B);
-    barcode.setData("CODE39-123456789012");
-    barcode.setN(11.0f);
-    barcode.renderBarcode("D:\\bcmade.gif");
-     */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
